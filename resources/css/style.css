@@ -2,19 +2,22 @@
 /* CSS Document */
 
 /**/
-
+body {
+	min-width:1200px;
+}
 #main {
 	padding: 0 150px 0 150px;
 	background: #F0F0F0;
 }
-#image-content {
-	width: 100%;
+#image-content, #image-content img{
 	height : 400px;
-	background-image:url(../images/houseboat-2.jpg);
+	/*background-image:url(../images/houseboat-2.jpg);
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: contain;*/
 }
-
+#image-content img{
+	width : 100%;
+}
 /*** Header ***/
 #header {
 	height : 32px;
