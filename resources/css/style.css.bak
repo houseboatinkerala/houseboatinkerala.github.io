@@ -9,6 +9,7 @@ body {
 #main {
 	padding: 0 150px 0 150px;
 	background: #F0F0F0;
+	min-height:100%;
 }
 #image-content, #image-content img{
 	height : 500px;

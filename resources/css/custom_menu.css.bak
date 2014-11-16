@@ -35,7 +35,6 @@
 #cssmenu #logo label.font-14{
     font-size:18px;
 	position:relative;
-	top:7px;
 }
 #cssmenu.align-right ul li {
   float: right;

@@ -126,7 +126,7 @@
             <div id="logo" title="domain name">
 			    <label style="color:green">Lagoon</label>
 				<label style="color:red">Bliss</label>
-				<label style="color:black" class="font-14" >.com</label>
+				<label style="color:black">.com</label>
 			</div>
             <ul>
                <li class='active menu-list'><span>Home</span></li>
