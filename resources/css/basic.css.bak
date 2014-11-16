@@ -9,10 +9,6 @@
     zoom: 1.0;
     width: device-width;
 }
-@-ms-viewport{
-    width: extend-to-zoom;
-    zoom: 1.0;
-}
 body {
   margin: 0; padding: 0; /* Browsers have default 8px margins _or_ padding! */
   font-size: 100%; /* See: http://www.informationarchitects.jp/en/100e2r/ */

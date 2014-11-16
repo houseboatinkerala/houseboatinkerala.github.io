@@ -4,7 +4,8 @@
 /**/
 body {
 	min-width:1200px;
-	height:100%;
+	min-height:100% !important;
+	position:absolute;
 }
 #main {
 	padding: 0 150px 0 150px;
@@ -42,7 +43,7 @@ body {
 	line-height: 32px;
 	display:inline-block;
 	color: #000;
-	font-size:14px;
+	font-size:21px;
 	float:right;
 	color: #458B00;
 }
@@ -92,5 +93,6 @@ body {
 	width: 100%;
 	padding: 30px 0;
 	bottom:0;
+	position:relative;
 }
 /*Footer Ends Here*/

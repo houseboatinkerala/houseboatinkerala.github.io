@@ -1,0 +1,14 @@
+function setFooterPosition () {
+	alert($(window).height() + ':' + $('body').height());
+	if($('body').height() < $(window).height()) {
+		$('#footer').css('position','fixed');
+	} else {
+		$('#footer').css('position','relative');
+	}
+}
+$(window).ready(function(){
+	setFooterPosition();
+	$(window).resize(function(){
+		setFooterPosition();
+	});
+});
