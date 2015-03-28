@@ -23,7 +23,7 @@
   box-sizing: border-box;
   font-weight:bold;
 }
-#cssmenu ul li, #cssmenu ul li label {
+#cssmenu ul li {
    cursor: pointer;
 }
 #logo {
