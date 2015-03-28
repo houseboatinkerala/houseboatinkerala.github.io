@@ -5,7 +5,6 @@
 body {
 	min-width:1200px;
 	min-height:100% !important;
-	position:absolute;
 }
 #main {
 	padding: 0 150px 0 150px;
@@ -96,3 +95,5 @@ body {
 	position:relative;
 }
 /*Footer Ends Here*/
+
+/* Modal window popup*/
