@@ -27,7 +27,7 @@
    cursor: pointer;
 }
 #logo {
-	width: 40%;
+	width: 300px;
 	font-size:40px;
 }
 
@@ -56,6 +56,8 @@
 }
 #cssmenu ul li a{
 	text-align:center;
+	text-decoration: none;
+	color: rgb(60, 178, 178);
 }
 li.al-lt {
 	float:left !important;
@@ -66,6 +68,6 @@ li.al-rt {
 li.menu-list {
 	width:13% !important;
 }
-#cssmenu ul li:hover{
+#cssmenu ul li:hover, #cssmenu ul li a:hover, #cssmenu ul li.active a, #cssmenu ul li.active{
 	color: #000;
 }

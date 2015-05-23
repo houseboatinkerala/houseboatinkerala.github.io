@@ -20,6 +20,10 @@ body {
 #image-content img{
 	width : 100%;
 }
+#maincontent {
+	padding: 20px 0 10px 0;
+	overflow:auto;
+}
 /*** Header ***/
 #header {
 	font-size: 24px;
@@ -88,9 +92,9 @@ body {
 #footer {
 	float: left;
 	background: url(../images/bg_footer.jpg) repeat-x top left;
-	height: 100px;
+	height: 20px;
 	width: 100%;
-	padding: 30px 0;
+	padding: 10px 0;
 	bottom:0;
 	position:relative;
 }
@@ -237,4 +241,19 @@ p img {
   height: auto;
   float: left;
   margin: 0 1em 1em 0;
+}
+
+.block-content {
+	width: 100%;
+	/*background-color: #cecece;*/
+}
+.block-content .inner-content {
+	width: 50%;
+	float: left;
+}
+.inner-content .inner-title {
+	text-align: center;
+	margin: 5 0 10 0;
+	font-size: 18px;
+	font-weight: bold;
 }
