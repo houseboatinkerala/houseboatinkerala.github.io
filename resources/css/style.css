@@ -199,7 +199,6 @@ body {
 /* Other
  * =============================== */
 body {
-  padding: 1%;
   font: 1/1.5em sans-serif;
   text-align: center;
 }
@@ -256,4 +255,10 @@ p img {
 	margin: 5 0 10 0;
 	font-size: 18px;
 	font-weight: bold;
+}
+
+.booking-tips li {
+	text-align: left;
+	margin-bottom: 20px;
+	list-style-type: circle;
 }
