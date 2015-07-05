@@ -72,12 +72,12 @@ body {
 #header #social-media ul li{
 	float:left;
 }
+/* Social Media */
 #header #social-media .fb {
-	height:30px;
+	/*height:30px;*/
 	width:30px;
-	background: url(../images/soc-med.jpg);
+	/*background: url(../images/soc-med.jpg);*/
 	position:relative;
-	background-position: 455px 182px;
 }
 #header #social-media .twitter {
 	height:30px;
