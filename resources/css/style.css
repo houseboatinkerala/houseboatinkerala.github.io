@@ -277,3 +277,11 @@ p img {
 	height: 1px !important;
 	width: 100%;
 }
+/* Contact Us*/
+.contact-details {
+	margin-top: 10px;
+}
+.contact-us a, .contact-us span {
+	color: #1791d6;
+	text-decoration: none;
+}
