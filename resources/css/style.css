@@ -27,7 +27,7 @@ body {
 /*** Header ***/
 #header {
 	font-size: 24px;
-	margin: 10px 150px 0 150px;
+	margin: 15px 150px 25px 150px;
 }
 #header, #header #contact-no{
 	height : 32px;
@@ -96,7 +96,7 @@ body {
 	width: 100%;
 	padding: 10px 0;
 	bottom:0;
-	position:relative;
+	position:relative !important;
 }
 /*Footer Ends Here*/
 
@@ -261,4 +261,19 @@ p img {
 	text-align: left;
 	margin-bottom: 20px;
 	list-style-type: circle;
+}
+.book-content {
+	position: relative;	
+	top: -117px;
+	float: left;
+}
+.maincontent.book-content {
+	overflow: inherit !important;
+}
+.book-header {
+	float: left;
+}
+.break {
+	height: 1px !important;
+	width: 100%;
 }

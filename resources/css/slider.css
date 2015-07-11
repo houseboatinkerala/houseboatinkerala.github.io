@@ -49,6 +49,7 @@
 	margin: 0 auto;
 	top: 0px; left: 0px; 
 	overflow: hidden;
+	top: -116px; /* Added for logo */
 }
 
 #slides {

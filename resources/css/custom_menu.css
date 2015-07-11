@@ -29,8 +29,13 @@
 #logo {
 	width: 300px;
 	font-size:40px;
+	float: left;
+	top: -70px;
+	margin-left: 100px;
 }
-
+#logo img {
+	width: 300px;
+}
 #cssmenu li, #cssmenu #logo, #cssmenu #logo label {
 	float:left;
 }
