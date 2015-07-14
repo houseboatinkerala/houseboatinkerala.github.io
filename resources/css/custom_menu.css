@@ -3,7 +3,7 @@
   width: auto;
   font-family: Helvetica, Arial, sans-serif;
   color: rgb(60, 178, 178);
-  padding:0 150px 0 150px;
+  padding:0 150px 0 0;
   height: 50px;
   line-height:50px;
   vertical-align:middle
@@ -25,13 +25,13 @@
 }
 #cssmenu ul li, #cssmenu ul li label {
    cursor: pointer;
+   text-align: center;
 }
 #logo {
 	width: 300px;
 	font-size:40px;
 	float: left;
-	top: -70px;
-	margin-left: 100px;
+	margin-left: 150px;
 }
 #logo img {
 	width: 300px;
@@ -71,7 +71,7 @@ li.al-rt {
 	float:right !important;
 }
 li.menu-list {
-	width:13% !important;
+	width: 125px !important;
 }
 #cssmenu ul li:hover, #cssmenu ul li a:hover, #cssmenu ul li.active a, #cssmenu ul li.active{
 	color: #000;

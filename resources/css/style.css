@@ -285,3 +285,13 @@ p img {
 	color: #1791d6;
 	text-decoration: none;
 }
+.tb-header table {
+	height: 125px;
+	width: 100%;
+}
+.logo-column {
+	width: 300px;
+}
+.tb-header table td {
+	vertical-align: bottom;
+}
